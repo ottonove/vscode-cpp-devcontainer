@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  cpp:
+    build: .
+    image: cpp-dev
+    container_name: cpp-dev
+    volumes:
+      - ../data:/data
+    working_dir: /data
+    tty: true
+    # to use gdb
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined
