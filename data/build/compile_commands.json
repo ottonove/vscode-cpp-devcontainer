@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/data/build",
-  "command": "/usr/bin/c++    -g   -std=gnu++1z -o CMakeFiles/sample-project.dir/main.cpp.o -c /data/main.cpp",
-  "file": "/data/main.cpp"
-}
-]
